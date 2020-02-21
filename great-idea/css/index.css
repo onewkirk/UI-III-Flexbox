@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 23%;
+	margin-right: 23%
 }
 ol, ul {
 	list-style: none;
@@ -166,3 +168,50 @@ footer {
 
 /* Service Page CSS*/
 
+.serv {
+	border-bottom: 2px solid black;
+	padding: 25px;
+	margin: 25px
+}
+.serv p {
+	width: 950px;
+}
+.serv img {
+	width: 950px;
+	padding-bottom: 20px;
+}
+
+.servLinks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 3px solid gray;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+
+.servLinks div {
+	background-color: rgb(231, 227, 227);
+	border: 1px solid black;
+	width: 45%;
+	margin: 25px;
+	padding: 10px;
+}
+.servLinks div a {
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.servOther {
+	display: flex;
+	justify-content: space-between;
+}
+
+.servOther ul{
+	list-style-type: square;
+	padding: 10px;
+	margin-left: 20px;
+}
