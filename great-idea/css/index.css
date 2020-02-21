@@ -63,4 +63,106 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.top_nav a{
+	color: gray;
+	padding: 35px;
+	padding-left: 5%;
+	display: inline-block;
+	width: inherit;
+}
+.top_nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+p {
+	width: 400px;
+}
+
+.section1 {
+	display: flex;
+	justify-content: center;
+	font-size: 70px;
+	padding-top: 5px;
+}
+
+.div1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.div1 .getStarted {
+	margin-top: 35px;
+	width: 150px;
+}
+
+.topImage {
+	padding:70px;
+	height: 600;
+	width: 600;
+	margin-left: 50px;
+}
+
+
+.section1 a {
+	border-style: solid;
+	border-color: black;
+	color: black;
+	border-width: 2px;
+	display: inline;
+	padding: 7px;
+	margin-left: 20px;
+}
+
+.section2{
+	display: flex;
+	justify-content: center;
+	border: 3px solid white;
+	border-top: 3px solid black;
+	height: 15%;
+}
+
+.features {
+	margin-right: 25px;
+}
+
+.midImgSec {
+	display: flex;
+	justify-content: center;
+}
+
+.midImgSec .middle-img {
+	height: 175px;
+}
+
+.section3 {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+	height: 250px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.product{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.contact, a{
+	color: black;
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	border-color: black;
+	font-size: 18px;
+}
+
+footer {
+	padding: 60px;
+	text-align: center;
+}
+
+/* Service Page CSS*/
+
